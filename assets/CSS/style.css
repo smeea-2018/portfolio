@@ -1,11 +1,83 @@
+* {
+  background-color: rgb(147, 190, 199);
+}
 .nav-container {
   display: flex;
   flex-direction: row;
+  background-color: beige;
+  border: 5px solid black;
+  justify-content: space-around;
 }
 
 .nav-container > div {
-  font-size: 30px;
+  font-size: 20px;
   margin: 20px;
   padding: 20px;
-  justify-content: center;
+
+  background-color: azure;
+}
+
+.section-container {
+  border: 5px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.about-me-info {
+  flex: 2;
+  margin: 20px;
+  padding: 20px;
+  background-color: blueviolet;
+}
+
+.about-me-image {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  background-color: blueviolet;
+}
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.section-content {
+  border: 5px solid black;
+  margin: 5px;
+}
+
+/* project styles*/
+
+.project-card {
+  width: 18rem;
+  margin: 10px;
+}
+
+.project-card img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.project-info {
+  text-align: center;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: beige;
+}
+.project-item {
+  color: blue;
+  margin: 10px;
+}
+@media only screen and (max-width: 600px) {
 }
