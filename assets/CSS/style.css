@@ -10,7 +10,6 @@
   height: 50px;
 }
 .nav-container {
-  flex: 1;
   display: flex;
   flex-direction: row;
 }
@@ -27,6 +26,7 @@
   padding: 20px;
 }
 .name {
+  flex: 1;
   align-content: flex-start;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -49,11 +49,13 @@
   flex: 1;
   margin: 20px;
   padding: 20px;
-}
-.profile-image {
-  width: 50%;
+  width: 60%;
   height: 50%;
 }
+./*profile-image {
+  width: 60%;
+  height: 50%;
+}*/
 
 .first-project {
   border: 5px solid;
