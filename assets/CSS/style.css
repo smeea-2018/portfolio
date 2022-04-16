@@ -28,6 +28,7 @@
 }
 .name {
   align-content: flex-start;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .section-container {
   display: flex;
