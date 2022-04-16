@@ -1,83 +1,102 @@
 * {
-  background-color: rgb(147, 190, 199);
+  margin: 10px;
+  background-color: dfe7fd;
+}
+.header {
+  border: 5px solid black;
+}
+.header-img {
+  width: 50px;
+  height: 50px;
 }
 .nav-container {
+  flex: 1;
   display: flex;
   flex-direction: row;
-  background-color: beige;
-  border: 5px solid black;
-  justify-content: space-around;
 }
 
+.links {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 .nav-container > div {
   font-size: 20px;
   margin: 20px;
   padding: 20px;
-
-  background-color: azure;
 }
-
+.name {
+  align-content: flex-start;
+}
 .section-container {
-  border: 5px solid blue;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 5px;
 }
 
-h2 {
+.project-heading {
   text-align: center;
 }
-
 .about-me-info {
   flex: 2;
   margin: 20px;
   padding: 20px;
-  background-color: blueviolet;
 }
 
 .about-me-image {
   flex: 1;
   margin: 20px;
   padding: 20px;
-  background-color: blueviolet;
 }
 .profile-image {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.section-content {
-  border: 5px solid black;
-  margin: 5px;
+  width: 50%;
+  height: 50%;
 }
 
-/* project styles*/
+.first-project {
+  border: 5px solid;
+}
+.first-project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
 
 .project-card {
   width: 18rem;
   margin: 10px;
 }
-
 .project-card img {
-  width: 100%;
+  width: 90%;
   object-fit: contain;
 }
-
 .project-info {
   text-align: center;
 }
-
-.project-container {
+.contact-me-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  background-color: beige;
+  background-color: bisque;
 }
-.project-item {
-  color: blue;
+.contact-item {
   margin: 10px;
 }
-@media only screen and (max-width: 600px) {
+
+@media (max-width: 700px) {
+  .nav-container,
+  .main,
+  .section-container,
+  .contact-me-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
