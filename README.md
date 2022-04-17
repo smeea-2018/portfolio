@@ -1,4 +1,4 @@
-# portfolio
+# Personal Portfolio
 
 ## Link to deploy website [here]()
 
