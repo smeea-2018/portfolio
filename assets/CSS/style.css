@@ -34,6 +34,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border: 5px solid black;
 }
 
 .project-heading {
@@ -52,11 +53,11 @@
   width: 60%;
   height: 50%;
 }
-./*profile-image {
+/*.profile-image {
   width: 60%;
   height: 50%;
-}*/
-
+}
+*/
 .first-project {
   border: 5px solid;
 }
