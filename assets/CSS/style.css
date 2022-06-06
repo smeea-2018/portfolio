@@ -5,22 +5,22 @@
 .header {
   border: 5px solid black;
 }
-.header-img {
+/*.header-img {
   width: 50px;
   height: 50px;
-}
+}*/
 .nav-container {
   display: flex;
   flex-direction: row;
 }
 
 .links {
-  flex: 2;
+  /*flex: 2;*/
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
-.nav-container > div {
+.nav-container div {
   font-size: 20px;
   margin: 20px;
   padding: 20px;
@@ -29,6 +29,7 @@
   flex: 1;
   align-content: flex-start;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
 }
 .section-container {
   display: flex;
@@ -97,6 +98,7 @@
 
 @media (max-width: 700px) {
   .nav-container,
+  .links,
   .main,
   .section-container,
   .contact-me-container {

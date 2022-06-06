@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-## Link to deploy website [here]()
+## Link to deploy website [here](https://smeea-2018.github.io/portfolio/)
 
 ## Portfolio
 
@@ -41,11 +41,7 @@ HTML, CSS
 
 ## Mock-ups
 
-Following link provides the preview of the website before changing the code.
-
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.]()
-
-The link below is the preview of the modified website.
+Following link provides the preview of the website.
 
 ![The modified Horiseon webpage a header with navigation bar, image, cards with text and footer]()
 
